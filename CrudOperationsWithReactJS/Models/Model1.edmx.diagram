@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a35ed0e209ed4f5e90765037eedf9872" Name="Diagram1">
+        <EntityTypeShape EntityType="MarsOnboardingModel.Customer" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarsOnboardingModel.Customer1" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarsOnboardingModel.Product" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarsOnboardingModel.ProductSold" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarsOnboardingModel.SoldProduct" Width="1.5" PointX="6" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarsOnboardingModel.Store" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarsOnboardingModel.sysdiagram" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="MarsOnboardingModel.FK_ProductSold_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="MarsOnboardingModel.FK_ProductSold_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="MarsOnboardingModel.FK_SoldProducts_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="MarsOnboardingModel.FK_ProductSold_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MarsOnboardingModel.FK_SoldProducts_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MarsOnboardingModel.FK_ProductSold_Store" ManuallyRouted="false" />
+        <AssociationConnector Association="MarsOnboardingModel.FK_SoldProducts_Store" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
